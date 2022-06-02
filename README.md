@@ -1,1 +1,1 @@
-# CSS-Exercise-1
+# The odin project css exercises
