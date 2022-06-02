@@ -1,0 +1,14 @@
+@layers one, two;
+
+@layer one{
+.avatar.proportioned{
+    width: 300px;
+    height: auto;
+}
+}
+@layer two{
+.avatar.distorted{
+    width: 200px;
+    height: 400px;
+}
+}
