@@ -1,0 +1,159 @@
+@font-face{
+    font-family: "Norse";
+    src: url("Norse-Bold.otf");
+}
+
+html{
+   height: 100%;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    height: inherit;
+
+}
+.container0{
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    justify-content: center;
+}
+
+.unsplash{
+color: white; 
+font-size: 12px; 
+position: absolute;
+display: flex;
+justify-content: center;
+width: inherit;
+padding-bottom: 10px;
+}
+
+#leaf{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background: url("leafs.jpg");
+    background-size: 100% 100%;
+}
+
+h3, h3 a{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+h3 a {
+    color: rgb(148, 100, 12);
+    font-weight: 900;
+}
+
+.container{
+    width: 60%;
+    padding-top: 5%; /* dummy */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+.content{
+    width: 75%;
+    padding-left: 4%;
+}
+.content2{
+     width: 100%; 
+    border-top: 3px solid #c2c2c4; 
+    padding-left: 4%;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+h4{
+    font-size: 20px;
+}
+.blackbox{
+    width: 100%;
+    height: 18%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 20%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#odin{
+    width: 16%;
+    height: 80%;
+}
+
+#odintext{
+    font-size: 500%;
+    color: white;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    font-family: "Norse";
+}
+
+p, em{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 899;
+
+}
+
+.inputs{
+    display:flex;
+    flex-direction:column;
+}
+
+input{
+    width: 200px;
+    border-radius: 3px;
+    border: .5px solid #E5E7EB;
+    height: 23px;
+}
+input:focus{
+    box-shadow: 0 0 .5em blue;
+}
+#passwdmessage{
+    font-size: 12px;
+    color: red;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 3px;
+}
+label{
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 5px;
+}
+.inputsrow{
+    display: flex;
+    gap: 150px;
+}
+
+button{
+    background-color:  #596D48;
+    border: 2px solid  #E5E7EB;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 2px;
+    color: rgb(214, 211, 211);
+    background-color: rgb(214, 211, 211);
+}
+
+a{
+    margin-left: 0.2em; color: white; margin-right: 0.2em;
+
+}

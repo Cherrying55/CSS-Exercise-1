@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="signup.js" defer></script>
+</head>
+<body>
+<div class="container0">       
+<div id="leaf"></div>
+<div class="blackbox">  
+    <img id="odin" src="odin.png"> 
+    <div id="odintext">ODIN</div>   
+</div>
+<div class="unsplash">Photo by <a href="google.com" target="_blank"> Halie West</a> on <a href="a" target="_blank">Unsplash</a></div>
+</div>
+<div class="container">
+    <div class="content">
+<div><p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em style="font-style: italic">now</em> to get started!</p></div>  
+<br>
+<p>You <em style="font-style: italic">know</em> you want to.</p>
+<br>
+<br>
+<h4>Let's do this!</h4>
+<form action="./page2.html" method="POST">
+<div class="inputsrow">
+<div class="inputs">
+<label for "firstname">FIRST NAME</label>
+<input id="firstname" type="text" required name="firstname">
+</div>
+<div class="inputs">
+<label for "lastname">LAST NAME</label>
+<input id="lastname" type="text" required name="lastname">
+</div>
+</div>
+<br>
+<div class="inputsrow">
+    <div class="inputs">
+    <label for "email">EMAIL</label>
+    <input type="email" required name="email" id="email">
+    </div>
+    <div class="inputs">
+    <label for "phonenumber">PHONE NUMBER</label>
+    <input type="tel" required name="phonenumber" id="phonenumber">
+    </div>
+    </div>
+    <br>
+<div class="inputsrow">
+<div class="inputs">
+<label for "password">PASSWORD</label>
+<input type="password" required name="password" id="password" value="123">
+</div>
+<div class="inputs">
+<label for "confirm">CONFIRM PASSWORD</label>
+<input type="password" required name="confirm" id="confirm">
+</div>
+</div>
+<div id="passwdmessage"></div>
+</div>
+<div class="content2">
+<button type="submit">Create Account</button>
+</form>     
+<h3>Already have an account? <a>Log in</a></h3> 
+</div>
+</div>
+</body>
+</html>
